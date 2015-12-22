@@ -1,0 +1,153 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+  // font-family:'Memphis LT W01 Light';
+  // font-family:'MemphisLTW01-LightItali';
+  // font-family:'Memphis LT W01 Medium';
+  // font-family:'MemphisLTW01-MediumItal';
+  // font-family:'Memphis LT W01 Bold';
+  // font-family:'MemphisLTW01-BoldItalic';
+  // font-family:'MemphisLTW01-ExtraBold';
+  // font-family:'Futura W01 Light';
+  // font-family:'Futura W01 Book';
+  // font-family:'Futura W01 Medium';
+  // font-family:'Futura W01 Heavy';
+  // font-family:'Futura W01 Bold';
+  // font-family:'UniversLTW01-47LightCn';
+  // font-family:'UniversLTW01-47LightCnO';
+  // font-family:'UniversLTW01-57Condense_723821';
+  // font-family:'UniversLTW01-57Condense_723818';
+  // font-family:'UniversLTW01-67BoldCn';
+  // font-family:'UniversLTW01-67BoldCnOb';
+  // font-family:'UniversLTW01-39ThinUltr';
+  // font-family:'UniversLTW01-49LightUlt';
+  // font-family:'UniversLTW01-59UltraCn';
+  // font-family:'Black Jack W00 Regular';
+  // font-family:'ITCFranklinGothicW01-Bk_812647';
+  // font-family:'Univers LT W01_45 Light';
+  // font-family:'Univers LT W04_55 Roman';
+  // font-family:'Univers LT W01_65 Bold';
+  // font-family:'CaflischScriptW01-Regul';
+  // font-family:'CaflischScriptW01-SmBd';
+  // font-family:'UniversLTW01-55Oblique';
+  // font-family:'UniversLTW01-53Extended';
+  // font-family:'Univers W01_63 Bold Ex';
+  // font-family:'Univers W01_73 Black Ex';
+  // font-family:'Avenir Next Cyr W00 Ult Light';
+  // font-family:'Avenir Next Cyr W00 Ult Lt It';
+  // font-family:'Avenir Next Cyr W00 Thin';
+  // font-family:'Avenir Next Cyr W00 Thin It';
+  // font-family:'Avenir Next Cyr W00 Light';
+  // font-family:'Avenir Next Cyr W00 Light It';
+  // font-family:'Avenir Next Cyr W00 Regular';
+  // font-family:'Avenir Next Cyr W00 Italic';
+  // font-family:'Avenir Next Cyr W00 Medium';
+  // font-family:'Avenir Next Cyr W00 Medium It';
+  // font-family:'Avenir Next Cyr W00 Demi';
+  // font-family:'Avenir Next Cyr W00 Demi It';
+  // font-family:'Avenir Next Cyr W00 Bold';
+  // font-family:'Avenir Next Cyr W00 Bold It';
+  // font-family:'Avenir Next Cyr W00 Heavy';
+  // font-family:'Avenir Next Cyr W00 Heavy It';
+  // font-family:'AvenirNextLTW01-UltraLi';
+  // font-family:'AvenirNextLTW01-UltraLt_721260';
+  // font-family:'AvenirNextLTW01-BoldIta';
+  // font-family:'AvenirNextLTW01-UltraLt_721293';
+  // font-family:'AvenirNextLTW01-UltLtCn_721296';
+  // font-family:'AvenirNextLTW01-Condens_721299';
+  // font-family:'AvenirNextLTW01-Condens_721302';
+  // font-family:'AvenirNextLTW01-MediumC_721311';
+  // font-family:'AvenirNextLTW01-MediumC_721314';
+  // font-family:'AvenirNextLTW01-DemiCn';
+  // font-family:'AvenirNextLTW01-DemiCnI_721308';
+  // font-family:'AvenirNextLTW01-BoldCn';
+  // font-family:'AvenirNextLTW01-BoldCnI_721320';
+  // font-family:'AvenirNextLTW01-HeavyCn_721323';
+  // font-family:'AvenirNextLTW01-HeavyCn_721326';
+  // font-family:'Avenir Next W01 Cn Thin';
+  // font-family:'AvenirNextW01-CnThinIta';
+  // font-family:'AvenirNextW01-CnLight';
+  // font-family:'AvenirNextW01-CnLightIt';
+ @import "compass/reset";
+@import "compass/reset";
+// COLORS
+$emerald:#2ecc71;
+$blue:#3498db;
+$asphalt:#34495e;
+// FONTS
+$bold:'AvenirNextLTW01-BoldCn',helvetica,sans-serif;
+$univers: 'Univers LT W01_45 Light', helvetica, sans-serif;
+// MAIN
+.header{
+  background:url(../img/cover.jpg);
+  font-family: $bold;
+  color:white;
+  background-size:cover;
+  h1{
+    padding:200px 0 0;
+    font-size: 45px;
+    text-align: center;
+  }
+  h3{
+    padding-bottom:200px;
+    font-size: 24px;
+    text-align: center;
+  }
+}
+.copy{
+  background-color: rgba(255, 255, 255, 0.7);
+  line-height:40px;
+  font-family: $univers;
+
+}
+.one{
+  background:url(../img/detail_1.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  h2{
+    text-align:center;
+    font-size:32px;
+    color:white;
+    font-family:$univers;
+  }
+}
+.two{
+  background:url(../img/detail_2.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  h2{
+    padding-top:1200px;
+    text-align:center;
+    font-size:32px;
+    color:white;
+    font-family:$univers;
+    }
+  p{
+    padding-bottom:1200px;
+  }
+}
+.three{
+  background:url(../img/detail_3.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  h2{
+      text-align:center;
+      font-size:32px;
+      color:white;
+      font-family:$univers;
+    }
+}
+.asphalt{
+  background:$asphalt;
+}
+// MEDIA QUERIES
+	// LARGE >1200PX
+
+	// MED 1200-992PX
+
+	// SMALL 997-768PX
+
+	// XSMALL 768-400PX
+
+	// MOBILE <400PX
